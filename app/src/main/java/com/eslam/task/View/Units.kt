@@ -22,6 +22,7 @@ import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_units.*
 import retrofit2.Retrofit
 
+
 import kotlin.collections.ArrayList
 
 class Units : AppCompatActivity() , UnitsAdapter.CallbackInterface  {
