@@ -25,6 +25,8 @@ import retrofit2.Retrofit
 
 import kotlin.collections.ArrayList
 
+
+
 class Units : AppCompatActivity() , UnitsAdapter.CallbackInterface  {
 
     private lateinit var unitAdapter: UnitsAdapter

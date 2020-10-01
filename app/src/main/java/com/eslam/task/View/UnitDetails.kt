@@ -94,6 +94,10 @@ class UnitDetails : AppCompatActivity(), OnMapReadyCallback {
         txtPrice!!.text = data!!.price.toString()
         txtHostName!!.text = "Mohamed abdelfatah mohamed selim"
 
+
+
+        //
+
         txtCheckIn!!.text = data!!.checkin
         txtCheckOut!!.text = data!!.checkout
         txtCurrencyValue!!.text = data!!.currency
