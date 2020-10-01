@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task</string>
+    <string name="checkInternetConnection">تأكد من اتصلك بالانترنت</string>
+    <string name="filters">بحث</string>
+    <string name="guests">ضيوف</string>
+    <string name="rooms">غرفه</string>
+    <string name="beds">سرير</string>
+    <string name="bathroom">حمام</string>
+    <string name="balacons">شرفه</string>
+    <string name="description">الوصف</string>
+    <string name="aboutHost">احول هذا المضيف</string>
+    <string name="thingsMind">أشياء لتأخذها بالحسبان</string>
+    <string name="checkIn">اموعد لدخول :</string>
+    <string name="checkOut">موعد الخروج :</string>
+    <string name="moreDetails">تفاصيل اكثر</string>
+    <string name="checkAvailability">التحقق من الصلاحية</string>
+    <string name="night">ليلة</string>
+    <string name="Night">ليلة</string>
+    <string name="houseRules">القواعد</string>
+    <string name="cancellationPolicy">سياسة الإلغاء</string>
+    <string name="reportListing">الإبلاغ عن هذا الإدراج</string>
+    <string name="read">قرأه</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="perNight">لكل ليلة</string>
+    <string name="apartm">شقة</string>
+</resources>

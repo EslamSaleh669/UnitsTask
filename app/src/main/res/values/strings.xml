@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="checkInternetConnection">Please check internet connection</string>
+    <string name="filters">Filters</string>
+    <string name="guests">Gusts</string>
+    <string name="rooms">Rooms</string>
+    <string name="beds">Beds</string>
+    <string name="bathroom">Bathrooms</string>
+    <string name="balacons">Balacons</string>
+    <string name="description">Description</string>
+    <string name="aboutHost">About This Host</string>
+    <string name="thingsMind">Things to keep in mind</string>
+    <string name="checkIn">Check-in:</string>
+    <string name="checkOut">Check-out:</string>
+    <string name="moreDetails">More Details</string>
+    <string name="checkAvailability">Check availability</string>
+    <string name="night">night</string>
+    <string name="Night">NIGHT</string>
+    <string name="houseRules">House rules</string>
+    <string name="cancellationPolicy">Cancellation Policy</string>
+    <string name="reportListing">Report this Listing</string>
+    <string name="read">Read</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="perNight">Per Night</string>
+    <string name="apartm">Apartm</string>
+</resources>
