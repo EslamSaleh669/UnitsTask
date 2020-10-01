@@ -23,7 +23,6 @@ class Service() {
             .baseUrl(Info.BaseUrl)
             .addConverterFactory(GsonConverterFactory.create())
             .client(okHttpClient)
-            //Add RxJava2CallAdapterFactory as a Call adapter when building your Retrofit instance
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .build()
     }

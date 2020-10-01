@@ -123,19 +123,15 @@ class UnitDetails : AppCompatActivity(), OnMapReadyCallback {
             mMap = googleMap
         }
 
-        // Add a marker in Sydney and move the camera
         val location = LatLng(data!!.longitude, data!!.latitude)
         mMap.addMarker(MarkerOptions().position(location).title(data!!.title))
         val currentZoom = mMap.cameraPosition.zoom
 
         Log.e("** c",currentZoom.toString())
-//        mMap.moveCamera(CameraUpdateFactory.zoomTo(currentZoom));
 
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location,15f));
-        // Zoom in, animating the camera.
         googleMap!!.animateCamera(CameraUpdateFactory.zoomIn());
-        // Zoom out to zoom level 10, animating with a duration of 2 seconds.
         googleMap!!.animateCamera(CameraUpdateFactory.zoomTo(15f), 2000, null);
     }
 }

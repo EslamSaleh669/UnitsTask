@@ -58,9 +58,7 @@ class Units : AppCompatActivity() , UnitsAdapter.CallbackInterface  {
         val retrofit: Retrofit = Service().generateRetrofitBuilder()
         val api: Apis = retrofit.create(Apis::class.java)
 
-        //CompositeDisposable is needed to avoid memory leaks
         compositeDisposable = CompositeDisposable()
-        //Add all RxJava disposables to a CompositeDisposable//
         compositeDisposable.add(
             api.getData("1", "10")
                 .observeOn(AndroidSchedulers.mainThread())
@@ -73,7 +71,6 @@ class Units : AppCompatActivity() , UnitsAdapter.CallbackInterface  {
         if (unitModel.status == 200) {
             unitList = unitModel.response.data
 
-            // set View
             unitAdapter = UnitsAdapter(unitList,this)
             recyleUnits!!.setHasFixedSize(true)
             recyleUnits!!.layoutManager = GridLayoutManager(this, 2)
